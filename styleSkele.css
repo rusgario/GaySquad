@@ -1,4 +1,6 @@
- * {
+
+@media (max-width:1920px) {
+* {
   flex-direction: column
 }
 
@@ -62,7 +64,7 @@ body {
 .dropdown-content a:hover {background-color: #666666;}
 
 
-/* body { 
+ body { 
   margin: auto;
   max-width: 100%;
   min-height: 100vh;
@@ -226,154 +228,15 @@ hr {
     width: 400px;
     height: 200px;
   }
+}
 
-  @media (max-width: 600px) {
-
-    .videoSkele {
-      margin: auto;
-     width: auto;
-      height: auto;
-      border: 2px solid white;
+@media (max-width:320px) {
+  * {
+    flex-direction: column
   }
-
-    .for_text {
-      width: 100%;
-      margin: 20px 0;
-      height: auto;
-    }
-    
-    .container {
-      margin: 10px 0;
-    }
-    
-    .gif {
-      margin: 0;
-    }
-
-    
-    .info {
-      margin: 0 auto;
-      width: auto;
-      height: auto;
-    }
-
-    .img {
-      width: auto;
-      height: auto;
-      margin: 0 auto;
-    }
+  .container {
+    height: auto;
+    width: auto;
+    margin: 20px 40px;
   }
-
-  
-  
-  @media (max-width: 1200px) {
-  
-
-    .videoSkele {
-      margin: auto;
-     width: auto;
-      height: auto;
-      border: 2px solid white;
-  }
-    
-    .for_text {
-      width: 100%;
-      margin: 50px auto;
-      height: auto;
-    }
-    
-    .container {
-      margin: 10px auto;
-    }
-    
-    .gif {
-      margin: 0 auto;
-    }
-
-  
-    .info {
-      margin: 0 auto;
-      width: auto;
-      height: auto;
-    }
-
-    .img {
-      width: auto;
-      height: auto;
-      margin: 0 auto;
-    }
-
-  }
-  
-  
-  @media (max-width: 480px) {
-
-    .videoSkele {
-      margin: 0 auto;
-     width: auto;
-      height: auto;
-      border: 2px solid white;
-  }
-  
-  
-    .for_text {
-      width: 100%;
-      margin: 20px 0;
-      height: auto;
-    }
-    
-    .container {
-      margin: 10px 70px;
-    }
-    
-    .gif {
-      margin: 0 50px;
-      width: 150px;
-      height: 200px;
-    }
-
-    .info {
-      margin: 0 auto;
-      width: auto;
-      height: auto;
-    }
-
-    .img {
-      width: auto;
-      height: auto;
-      margin: 0 auto;
-    }
-  }
-  
-
-  @media only screen and (max-width: 1127px) { 
-    .title {
-      font-size: 18px;
-      margin: 0 auto;
-      }
-
-      .videoSkele {
-        margin: 0 300px;
-       width: auto;
-        height: auto;
-        border: 2px solid white;
-    }
-        .img {
-          margin: 0 200px;
-          height: auto;
-          width: 50%;
-          }
-
-          .container {
-            margin: 40px 350px;
-          }
-
-          .gif {
-            margin: 0 300px;
-          }
-          .info {
-        
-            width: auto;
-            height: auto;
-          }
-  } */
+}
