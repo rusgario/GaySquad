@@ -1,7 +1,7 @@
 
 
 
-@media (min-width:1600px) and (max-width:1920px) {
+@media (min-width:1600px) and (max-width:1600px) {
   * {
     flex-direction: column
   }
@@ -205,7 +205,7 @@
     .dropdown-content a:hover {background-color: #666666;}
 }
 
-@media (min-width:1440px) {
+@media (min-width:1440px) and (max-width:1440px){
   * {
     flex-direction: column
   }
@@ -411,7 +411,7 @@
 }
 
 
-@media (min-width:1024px) {
+@media (min-width:1024px) and (max-width:1024px) {
   * {
     flex-direction: column
   }
@@ -617,7 +617,7 @@
 }
 
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:768px) {
   * {
     flex-direction: column
   }
@@ -823,7 +823,7 @@
 }
 
 
-@media (min-width:425px) {
+@media (min-width:425px) and (max-width:425px) {
   * {
     flex-direction: column
   }
@@ -1440,7 +1440,7 @@
 }
 
 
-@media (min-width:1920px) and (max-width:1920px) {
+@media (max-width:1920px) {
   * {
     flex-direction: column
   }
